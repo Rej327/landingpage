@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Animated Counter on Scroll / CountUp.js on classes</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.0/css/bulma.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="bg is-size-1">Scroll down</div>
+<nav class="level">
+  <div class="level-item has-text-centered">
+    <div>
+      <p class="heading">Tweets</p>
+      <p class="title js-count-up" data-value="3456"></p>
+    </div>
+  </div>
+  <div class="level-item has-text-centered">
+    <div>
+      <p class="heading">Following</p>
+      <p class="title js-count-up" data-value="123"></p>
+    </div>
+  </div>
+  <div class="level-item has-text-centered">
+    <div>
+      <p class="heading">Followers</p>
+      <p class="title js-count-up" data-value="450000"></p>
+    </div>
+  </div>
+  <div class="level-item has-text-centered">
+    <div>
+      <p class="heading">Likes</p>
+      <p class="title js-count-up" data-value="789"></p>
+    </div>
+  </div>
+</nav>
+<div class="bg is-size-1">Scroll up</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js'></script><script type="module" src="./script.js"></script>
+
+</body>
+</html>
