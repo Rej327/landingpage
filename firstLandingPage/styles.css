@@ -862,7 +862,298 @@ nav a:hover::before {
 
 .contact_container {
   width: 100%;
-  height: 550px;
-  border: 1px solid black;
+  height: 700px;
   margin-top: 180px;
+}
+
+.contact_info {
+  border: 1px solid bla;
+  margin: auto;
+  height: 100%;
+  width: 1150px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.contact_img {
+  height: 100%;
+  width: 100%;
+}
+
+.contact_image {
+  width: 100%;
+  height: 100%;
+}
+
+.contact_form {
+  height: 100%;
+  width: 100%;
+}
+
+.form {
+  width: 100%;
+  height: 100%;
+  padding: 0 50px;
+  background: white;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-family: inherit;
+  position: relative;
+}
+.contact_head {
+  margin: 10px 0;
+  padding-bottom: 5px;
+  width: 100%;
+  font-size: 50px;
+  font-family: cursive;
+  color: black;
+  text-align: center;
+}
+.name_,
+.email,
+.message_inp {
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+  background: none;
+  outline: none;
+  resize: none;
+  border: 0;
+  font-family: inherit;
+  font-size: 17px;
+  transition: all 0.3s;
+  border-bottom: 2px solid #bebed2;
+}
+
+.message_inp {
+  height: 200px;
+}
+input:focus {
+  border-bottom: 2px solid #000000;
+}
+textarea:focus {
+  border-bottom: 2px solid #000000;
+}
+
+.label:before {
+  content: attr(type);
+  display: block;
+  margin: 28px 0 0;
+  font-size: 20px;
+  color: black;
+}
+.send_message {
+  padding: 8px 12px;
+  margin: 8px 0 0;
+  font-family: inherit;
+  border: 2px solid #78788c;
+  background: 0;
+  color: #5a5a6e;
+  cursor: pointer;
+  transition: all 0.3s;
+  width: 100%;
+  height: 50px;
+  font-size: large;
+}
+.send_message:hover {
+  background: #271e17;
+  color: #fff;
+}
+
+.inline {
+  margin: 20px;
+}
+
+footer {
+  margin-top: 25px;
+  background-color: #ef7300;
+  width: 100%;
+  height: 300px;
+}
+
+.footer_container {
+  padding-top: 30px;
+  height: 100%;
+  width: 1150px;
+  margin: auto;
+  display: flex;
+  position: relative;
+}
+
+.left_foot {
+  height: 100%;
+  width: 650px;
+}
+
+.footer_header {
+  font-family: inherit;
+  color: white;
+  letter-spacing: 8px;
+  font-size: 40px;
+}
+
+.footer_text {
+  margin: 15px 0;
+  font-family: inherit;
+  color: rgb(241, 241, 241);
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.button_foot {
+  appearance: none;
+  background-color: floralwhite;
+  border: 2px solid #ef7300;
+  box-sizing: border-box;
+  color: #ef7300;
+  cursor: pointer;
+  font-family: cursive, Courier, monospace;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+  outline: none;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(0.1, 1, 0.2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 330px;
+  will-change: transform;
+}
+
+.button_foot:disabled {
+  pointer-events: none;
+}
+
+.button_foot:hover {
+  color: #fff;
+  background-color: #ef7300;
+  border: 2px solid #fff;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button_foot:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.right_foot {
+  height: 100%;
+  width: 550px;
+  right: 100%;
+}
+
+.other_contact_footer {
+  width: 100%;
+  height: 180px;
+  padding-top: 50px;
+}
+
+.other_contact_icon_footer {
+  width: 100%;
+  height: 66px;
+  padding: 0 60px;
+}
+
+.footer_info {
+  padding: 10px 70px 10px 70px;
+  font-family: inherit;
+  font-size: 17px;
+  font-weight: 500;
+  color: #582b00;
+}
+
+.info_spacing {
+  margin-right: 65px;
+  color: white;
+}
+.info_spacing2 {
+  margin-right: 60px;
+  color: white;
+}
+
+.info_spacing3 {
+  margin-right: 45px;
+  color: white;
+}
+
+.footer_icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  list-style-type: none;
+  font-size: 2rem;
+}
+
+.footer_icon li {
+  padding: 1rem;
+}
+
+.footer_icon li a {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #eee;
+}
+
+.fab {
+  font-size: 2rem;
+}
+
+/* transition for social icon hover animation */
+.fa-facebook,
+.fa-codepen,
+.fa-youtube,
+.fa-instagram,
+.fa-github,
+.fa-pinterest {
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+/* social media icons hover color */
+.fa-facebook:hover,
+.fa-facebook:focus {
+  color: #1877f2;
+  transform: scale(1.1);
+}
+
+.fa-twitter:hover,
+.fa-twitter:focus {
+  color: #1da1f2;
+  transform: scale(1.1);
+}
+
+.fa-youtube:hover,
+.fa-youtube:focus {
+  color: #df2426;
+  transform: scale(1.1);
+}
+
+.fa-instagram:hover,
+.fa-instagram:focus {
+  color: #bd22a2;
+  transform: scale(1.1);
+}
+
+.fa-github:hover,
+.fa-github:focus {
+  color: #000;
+  transform: scale(1.1);
+}
+
+.fa-github:hover,
+.fa-github:focus {
+  color: #000;
+  transform: scale(1.1);
+}
+
+.fa-codepen:hover,
+.fa-codepen:focus {
+  color: #000;
+  transform: scale(1.1);
 }
