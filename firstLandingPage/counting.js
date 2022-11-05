@@ -27,3 +27,14 @@ $(window).scroll(function () {
     a = 1;
   }
 });
+
+function myFunction() {
+  var element = document.getElementById("navbar-id");
+  element.classList.toggle("show");
+
+  // if (x.className === "topnav") {
+  //   x.className += " responsive";
+  // } else {
+  //   x.className = "topnav";
+  // }
+}
