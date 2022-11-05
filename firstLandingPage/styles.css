@@ -1148,3 +1148,135 @@ footer {
     background-color: white;
   }
 }
+
+@media only screen and (max-width: 425px) {
+  nav {
+    display: none;
+  }
+
+  .header-logo {
+    margin-left: -60px;
+    margin-top: auto;
+    width: 90px;
+    height: 40px;
+  }
+
+  .header-icon {
+    display: inline-block;
+    font-size: 25px;
+    margin-top: 6px;
+    position: absolute;
+    margin-left: 280px;
+  }
+
+  .show {
+    display: block;
+    position: relative;
+    width: 100%;
+    padding: 25px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  nav {
+    display: none;
+  }
+
+  .header-logo {
+    margin-left: -60px;
+    margin-top: auto;
+    width: 80px;
+    height: 40px;
+  }
+
+  .header-icon {
+    display: inline-block;
+    font-size: 25px;
+    margin-top: 6px;
+    position: absolute;
+    margin-left: 230px;
+  }
+
+  .show {
+    display: block;
+    position: relative;
+    width: 100%;
+    padding: 25px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  nav {
+    display: none;
+  }
+
+  .header-logo {
+    margin-left: -60px;
+    margin-top: auto;
+    width: 80px;
+    height: 40px;
+  }
+
+  .header-icon {
+    display: inline-block;
+    font-size: 25px;
+    margin-top: 6px;
+    position: absolute;
+    margin-left: 230px;
+  }
+
+  .show {
+    display: block;
+    position: relative;
+    width: 100%;
+    padding: 25px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  nav {
+    display: none;
+  }
+
+  .header-logo {
+    margin-left: -60px;
+    margin-top: auto;
+    width: 70px;
+    height: 30px;
+  }
+
+  .header-icon {
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 3px;
+    position: absolute;
+    margin-left: 180px;
+  }
+
+  .show {
+    display: block;
+    position: relative;
+    width: 100%;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  .link-hover {
+    font-size: 18px;
+    width: 100px;
+  }
+}
