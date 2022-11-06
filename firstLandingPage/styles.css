@@ -1519,4 +1519,8 @@ footer {
   .footer_header {
     font-size: 30px;
   }
+
+  .footer_text {
+    font-size: 15px;
+  }
 }
