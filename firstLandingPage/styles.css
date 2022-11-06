@@ -1295,7 +1295,7 @@ footer {
   }
 
   .main-section .main_head {
-    padding-left: 60px;
+    padding-left: 78px;
     font-size: 60px;
   }
 
@@ -1330,4 +1330,11 @@ footer {
     margin-top: -10px;
     font-size: 0.87rem;
   }
-}
+
+  .container_c {
+    margin: 70px auto;
+    width: 84%;
+    height: 500px;
+  }
+
+  
