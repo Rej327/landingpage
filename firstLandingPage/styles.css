@@ -1437,4 +1437,14 @@ footer {
   .skew_right_content {
     font-size: 33px;
   }
+
+  .our_team {
+    width: 80%;
+    height: auto;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 1px;
+    align-items: center;
+    justify-content: center;
+  }
 }
