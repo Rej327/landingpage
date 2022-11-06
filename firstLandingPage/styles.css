@@ -1523,4 +1523,9 @@ footer {
   .footer_text {
     font-size: 15px;
   }
+
+  .footer_container .button_foot {
+    width: 250px;
+    font-size: 18px;
+  }
 }
