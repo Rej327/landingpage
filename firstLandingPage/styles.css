@@ -1540,4 +1540,22 @@ footer {
     padding-right: 0;
     padding-left: 20px;
   }
+
+  .other_contact_icon_footer {
+    font-size: 5rem;
+    width: auto;
+  }
+
+  .footer_icon li {
+    padding: 0;
+  }
+
+  .footer_icon li a {
+    text-align: center;
+    color: #eee;
+  }
+
+  .fab {
+    font-size: 1.5rem;
+  }
 }
