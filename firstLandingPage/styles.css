@@ -1280,3 +1280,13 @@ footer {
     width: 100px;
   }
 }
+
+@media only screen and (max-width: 1024px) {
+  .header-logo {
+    margin-left: -50px;
+  }
+
+  .navbar {
+    margin-right: -50px;
+  }
+}
