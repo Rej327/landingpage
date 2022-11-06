@@ -1298,4 +1298,10 @@ footer {
     padding-left: 60px;
     font-size: 60px;
   }
+
+  .container_a {
+    margin-left: 60px;
+    width: 660px;
+    height: 100%;
+  }
 }
