@@ -1515,4 +1515,8 @@ footer {
   .left_foot {
     margin-left: 40px;
   }
+
+  .footer_header {
+    font-size: 30px;
+  }
 }
