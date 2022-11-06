@@ -1425,4 +1425,16 @@ footer {
   .percent {
     font-size: 60px;
   }
+
+  .c_n_context {
+    font-size: 15px;
+  }
+
+  .skew_right_section {
+    height: 400px;
+  }
+
+  .skew_right_content {
+    font-size: 33px;
+  }
 }
