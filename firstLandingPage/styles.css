@@ -1300,8 +1300,34 @@ footer {
   }
 
   .container_a {
-    margin-left: 60px;
-    width: 660px;
+    margin-left: 80px;
+    width: 720px;
     height: 100%;
+  }
+
+  .container_b {
+    margin-left: 220px;
+    width: 70%;
+    height: 150px;
+  }
+
+  .container_b .c_b_section_sub_con {
+    width: 20%;
+    height: 100%;
+  }
+
+  .container_b .icon_sub {
+    margin-top: -5px;
+    height: 40%;
+    width: 50%;
+  }
+
+  .container_b .icon_sub .fa-solid {
+    font-size: 30px;
+  }
+
+  .container_b .c_b_section_sub_con p {
+    margin-top: -10px;
+    font-size: 0.87rem;
   }
 }
