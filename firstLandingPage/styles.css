@@ -1415,4 +1415,14 @@ footer {
   .s_l_head .s_l_headings {
     font-size: 19px;
   }
+
+  .container_all_count {
+    width: 550px;
+    margin-left: -55px;
+  }
+
+  .numb,
+  .percent {
+    font-size: 60px;
+  }
 }
