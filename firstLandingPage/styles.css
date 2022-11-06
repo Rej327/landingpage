@@ -1290,6 +1290,10 @@ footer {
     margin-right: -50px;
   }
 
+  .navbar .navbar-list .link-hover {
+    font-size: 18px;
+  }
+
   .main-section {
     width: 100%;
   }
@@ -1498,7 +1502,17 @@ footer {
     position: relative;
   }
 
+  footer {
+    height: auto;
+    width: 100%;
+  }
+
   .footer_container {
     width: 100%;
+    height: auto;
+  }
+
+  .left_foot {
+    margin-left: 40px;
   }
 }
