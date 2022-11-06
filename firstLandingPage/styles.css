@@ -1346,4 +1346,21 @@ footer {
     height: 80%;
     width: 90%;
   }
+
+  .container_d {
+    margin-top: -30px;
+    font-size: 90%;
+    padding: 80px;
+  }
+
+  .container_d .c_d_sub_head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 70px;
+  }
+  .container_d a {
+    font-size: 17px;
+  }
 }
