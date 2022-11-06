@@ -1462,4 +1462,8 @@ footer {
   .info_name .name {
     font-size: 17px;
   }
+
+  .info_details .details {
+    font-size: 15px;
+  }
 }
