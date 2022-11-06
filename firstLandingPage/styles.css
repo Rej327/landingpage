@@ -1389,4 +1389,13 @@ footer {
   .e_list .e_benefits .e_benefits_list {
     font-size: 18px;
   }
+
+  .container_f .skew_headings {
+    font-size: 50px;
+  }
+
+  .container_f .skew_context {
+    padding-top: 10px;
+    font-size: 18px;
+  }
 }
