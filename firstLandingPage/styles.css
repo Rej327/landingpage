@@ -1363,4 +1363,30 @@ footer {
   .container_d a {
     font-size: 17px;
   }
+
+  .container_e {
+    border: 1px solid black;
+    width: 100%;
+    height: 470px;
+  }
+
+  .container_e .e_content {
+    width: 100%;
+  }
+
+  .e_head .e_header {
+    font-size: 60px;
+  }
+  .e_content {
+    margin-top: 180px;
+    height: 100%;
+  }
+
+  .e_con_headings .e_c_h_head {
+    font-size: 25px;
+  }
+
+  .e_list .e_benefits .e_benefits_list {
+    font-size: 18px;
+  }
 }
