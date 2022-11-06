@@ -1289,4 +1289,8 @@ footer {
   .navbar {
     margin-right: -50px;
   }
+
+  .main-section {
+    width: 100%;
+  }
 }
