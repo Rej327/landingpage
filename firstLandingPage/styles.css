@@ -1528,4 +1528,16 @@ footer {
     width: 250px;
     font-size: 18px;
   }
+
+  .footer_container .right_foot {
+    margin-top: -20px;
+  }
+  .footer_info,
+  .info_spacing,
+  .info_spacing2,
+  .info_spacing3 {
+    font-size: 15px;
+    padding-right: 0;
+    padding-left: 20px;
+  }
 }
