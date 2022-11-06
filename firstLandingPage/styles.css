@@ -1466,4 +1466,15 @@ footer {
   .info_details .details {
     font-size: 15px;
   }
+
+  .social_icon_team {
+    margin-top: -50px;
+    width: 90%;
+    height: 80%;
+    margin-right: 100px;
+  }
+
+  .social_icon_team .icon_name {
+    font-size: 12px;
+  }
 }
