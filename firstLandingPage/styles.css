@@ -1458,4 +1458,8 @@ footer {
     width: 75%;
     height: auto;
   }
+
+  .info_name .name {
+    font-size: 17px;
+  }
 }
