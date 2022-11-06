@@ -1497,4 +1497,8 @@ footer {
     height: 100%;
     position: relative;
   }
+
+  .footer_container {
+    width: 100%;
+  }
 }
