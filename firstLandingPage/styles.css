@@ -1447,4 +1447,10 @@ footer {
     align-items: center;
     justify-content: center;
   }
+
+  .team_info {
+    width: 80%;
+    height: 550px;
+    margin: auto;
+  }
 }
