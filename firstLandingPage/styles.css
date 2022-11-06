@@ -1487,4 +1487,14 @@ footer {
     margin-top: 40px;
     height: auto;
   }
+
+  .contact_info {
+    height: 700px;
+    width: auto;
+  }
+
+  .contact_image {
+    height: 100%;
+    position: relative;
+  }
 }
