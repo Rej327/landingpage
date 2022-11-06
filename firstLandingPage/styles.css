@@ -1293,4 +1293,9 @@ footer {
   .main-section {
     width: 100%;
   }
+
+  .main-section .main_head {
+    padding-left: 60px;
+    font-size: 60px;
+  }
 }
