@@ -1438,6 +1438,10 @@ footer {
     font-size: 33px;
   }
 
+  .container_g {
+    height: auto;
+  }
+
   .our_team {
     width: 80%;
     height: auto;
@@ -1476,5 +1480,11 @@ footer {
 
   .social_icon_team .icon_name {
     font-size: 12px;
+  }
+
+  .contact_container {
+    width: 100%;
+    margin-top: 40px;
+    height: auto;
   }
 }
