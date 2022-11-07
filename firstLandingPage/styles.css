@@ -1704,4 +1704,10 @@ footer {
     width: 620px;
     margin: auto;
   }
+
+  .container_f .colour-block .skew_context {
+    font-size: 18px;
+    width: 620px;
+    margin: 10px auto;
+  }
 }
