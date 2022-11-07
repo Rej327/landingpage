@@ -1602,8 +1602,11 @@ footer {
   }
 
   .container_b {
-    width: 95%;
-    height: 130px;
-    margin: -85px auto;
+    margin: -100px auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 40px;
+    width: 380px;
+    height: auto;
   }
 }
