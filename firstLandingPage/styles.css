@@ -1651,4 +1651,8 @@ footer {
   .button_con {
     margin: -20px auto;
   }
+
+  .container_c .bg_color {
+    width: 100%;
+  }
 }
