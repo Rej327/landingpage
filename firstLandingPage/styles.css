@@ -1698,4 +1698,10 @@ footer {
     padding: 135px 0;
     height: 430px;
   }
+
+  .container_f .colour-block .skew_headings {
+    font-size: 50px;
+    width: 620px;
+    margin: auto;
+  }
 }
