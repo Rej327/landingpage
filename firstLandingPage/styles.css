@@ -1689,4 +1689,13 @@ footer {
   .container_e .e_list .e_benefits_list {
     font-size: 15px;
   }
+
+  .container_f {
+    width: auto;
+  }
+
+  .container_f .colour-block {
+    padding: 135px 0;
+    height: 430px;
+  }
 }
