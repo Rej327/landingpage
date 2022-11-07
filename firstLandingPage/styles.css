@@ -1643,4 +1643,8 @@ footer {
     position: absolute;
     left: 15%;
   }
+
+  .container_c .c_c_row_section_text h2 {
+    padding: 30px;
+  }
 }
