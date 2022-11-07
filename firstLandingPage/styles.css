@@ -1295,7 +1295,8 @@ footer {
   }
 
   .main-section {
-    width: 100%;
+    width: auto;
+    margin: auto;
   }
 
   .main-section .main_head {
@@ -1369,7 +1370,7 @@ footer {
   }
 
   .container_e {
-    width: 100%;
+    width: auto;
     height: 470px;
   }
 
@@ -1379,10 +1380,12 @@ footer {
 
   .e_head .e_header {
     font-size: 60px;
+    width: auto;
   }
   .e_content {
     margin-top: 180px;
     height: 100%;
+    width: auto;
   }
 
   .e_con_headings .e_c_h_head {
@@ -1391,6 +1394,10 @@ footer {
 
   .e_list .e_benefits .e_benefits_list {
     font-size: 18px;
+  }
+
+  .container_f {
+    width: auto;
   }
 
   .container_f .skew_headings {
@@ -1405,6 +1412,13 @@ footer {
     height: 450px;
   }
 
+  .skew_c {
+    width: auto;
+  }
+
+  .skew_cc {
+    width: auto;
+  }
   .skew_2nd_section {
     margin: auto;
     width: 850px;
