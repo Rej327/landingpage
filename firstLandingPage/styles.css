@@ -1710,4 +1710,8 @@ footer {
     width: 620px;
     margin: 10px auto;
   }
+
+  .button_skew_con .button_skew {
+    font-size: 18px;
+  }
 }
