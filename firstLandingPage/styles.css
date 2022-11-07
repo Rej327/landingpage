@@ -1669,4 +1669,11 @@ footer {
     width: auto;
     height: 370px;
   }
+  .container_e .e_head {
+    margin-top: 35px;
+  }
+
+  .container_e .e_head .e_header {
+    font-size: 50px;
+  }
 }
