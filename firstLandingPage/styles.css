@@ -1655,4 +1655,13 @@ footer {
   .container_c .bg_color {
     width: 100%;
   }
+
+  .container_d {
+    padding: 0;
+    margin-top: 1px;
+  }
+
+  .container_d .c_d_section_all {
+    padding: 0;
+  }
 }
