@@ -1676,4 +1676,17 @@ footer {
   .container_e .e_head .e_header {
     font-size: 50px;
   }
+
+  .container_e .e_content {
+    margin-top: 100px;
+    padding: 40px;
+  }
+
+  .container_e .e_c_h_head {
+    font-size: 20px;
+  }
+
+  .container_e .e_list .e_benefits_list {
+    font-size: 15px;
+  }
 }
