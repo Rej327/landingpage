@@ -1647,4 +1647,8 @@ footer {
   .container_c .c_c_row_section_text h2 {
     padding: 30px;
   }
+
+  .button_con {
+    margin: -20px auto;
+  }
 }
