@@ -1664,4 +1664,9 @@ footer {
   .container_d .c_d_section_all {
     padding: 0;
   }
+
+  .container_e {
+    width: auto;
+    height: 370px;
+  }
 }
