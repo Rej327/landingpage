@@ -1806,4 +1806,15 @@ footer {
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
       rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   }
+
+  .footer_container {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .other_contact_icon_footer {
+    width: 500px;
+  }
 }
