@@ -1723,4 +1723,12 @@ footer {
     width: auto;
     height: auto;
   }
+
+  .container_f .skew_2nd_section {
+    height: auto;
+    margin: 80px 0 auto;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
 }
