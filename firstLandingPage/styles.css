@@ -1790,4 +1790,12 @@ footer {
     height: auto;
     padding-top: 0;
   }
+
+  .contact_container {
+    width: auto;
+  }
+
+  .contact_container .contact_img {
+    display: none;
+  }
 }
