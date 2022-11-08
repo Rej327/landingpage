@@ -1767,4 +1767,16 @@ footer {
   .team_headings #team {
     padding-bottom: 110px;
   }
+
+  .container_g .our_team {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
 }
