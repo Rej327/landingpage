@@ -1763,4 +1763,8 @@ footer {
     height: 685px;
     width: auto;
   }
+
+  .team_headings #team {
+    padding-bottom: 110px;
+  }
 }
