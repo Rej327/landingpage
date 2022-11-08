@@ -1749,4 +1749,18 @@ footer {
     padding: 0;
     margin: auto;
   }
+
+  .skew_left_section .s_l_head {
+    margin: auto;
+  }
+
+  .skew_left_section .container_all_count {
+    position: absolute;
+    left: 100px;
+  }
+
+  .white-block {
+    height: 685px;
+    width: auto;
+  }
 }
