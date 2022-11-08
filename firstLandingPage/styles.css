@@ -1731,4 +1731,22 @@ footer {
     align-items: center;
     justify-content: center;
   }
+
+  .skew_2nd_section .skew_right_section {
+    margin: auto;
+    height: auto;
+    width: auto;
+  }
+
+  .container_all_count {
+    height: auto;
+    padding: 0;
+    margin: 25px 0 auto;
+  }
+
+  .container_all_count .counting_container {
+    height: auto;
+    padding: 0;
+    margin: auto;
+  }
 }
