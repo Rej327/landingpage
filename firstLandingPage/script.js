@@ -63,11 +63,6 @@ $(document).ready(function () {
   }
 });
 
-function myFunction() {
-  var element = document.getElementById("navbar-id");
-  element.classList.toggle("show");
-}
-
 $(document).ready(function () {
   var scroll = $.cookie("scroll");
   if (scroll) {
