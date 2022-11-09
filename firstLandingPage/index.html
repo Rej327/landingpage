@@ -28,10 +28,10 @@
               <a href="#home" class="link-hover">Home</a>
             </li>
             <li class="navbar-list">
-              <a href="#about-us" class="link-hover">About Us</a>
+              <a href="#" class="link-hover" data-id="about-us">About Us</a>
             </li>
             <li class="navbar-list">
-              <a href="#contact-us" class="link-hover">Contact Us</a>
+              <a href="#" class="link-hover" data-id="contact-us">Contact Us</a>
             </li>
           </ul>
         </nav>
@@ -91,7 +91,8 @@
                 <button
                   class="button-5"
                   role="button"
-                  onClick="location.href='#section_d'"
+                  href="#"
+                  data-id="section_d"
                   value="click here"
                 >
                   Learn More
@@ -129,7 +130,7 @@
                 </p>
               </div>
               <div>
-                <p><a href="#" class="d_more">More</a></p>
+                <p><a href="#" class="d_more" data-id="about-us">More</a></p>
               </div>
             </div>
             <div class="c_d_section_all">
@@ -148,7 +149,7 @@
                 </p>
               </div>
               <div>
-                <p><a href="#" class="d_more">More</a></p>
+                <p><a href="#" class="d_more" data-id="about-us">More</a></p>
               </div>
             </div>
             <div class="c_d_section_all">
@@ -167,7 +168,7 @@
                 </p>
               </div>
               <div>
-                <p><a href="#" class="d_more">More</a></p>
+                <p><a href="#" class="d_more" data-id="about-us">More</a></p>
               </div>
             </div>
           </section>
@@ -241,7 +242,7 @@
               <button
                 class="button_skew"
                 role="button"
-                onClick="location.href='#section_d'"
+                onClick="window.open('https://www.livescience.com/41995-how-do-solar-panels-work.html','How is Solar Panel Work')"
                 value="click here"
               >
                 Learn More
@@ -322,7 +323,7 @@
               </div>
             </div>
           </div>
-          <div class="skew-c"></div>
+          <div class="skew-c" id="skew-bottom"></div>
           <div class="colour-block">
             <h1 class="skew_headings">
               Do you need professionals for your next construction project?
@@ -331,7 +332,8 @@
               <button
                 class="button-28"
                 role="button"
-                onClick="location.href='#section_d'"
+                href="#"
+                data-id="team"
                 value="click here"
               >
                 Learn More
@@ -368,16 +370,22 @@
                 </p>
               </div>
               <div class="social_icon_team">
-                <a href="#" class="icon"
+                <a
+                  href="https://www.facebook.com/resujeff27"
+                  target="_blank"
+                  class="icon"
                   ><span class="icon_name">Facebook</span></a
                 >
                 <a href="#" class="icon"
                   ><span class="icon_name">Twitter</span></a
                 >
-                <a href="#" class="icon"
+                <a
+                  href="mailto: resujeff27@gmail.com"
+                  target="_blank"
+                  class="icon"
                   ><span class="icon_name">Google+</span></a
                 >
-                <a href="#" class="icon"
+                <a href="https://github.com/Rej327" target="_blank" class="icon"
                   ><span class="icon_name">Github</span></a
                 >
               </div>
@@ -405,7 +413,10 @@
                 </p>
               </div>
               <div class="social_icon_team">
-                <a href="#" class="icon"
+                <a
+                  href="https://www.facebook.com/johnpatrick13"
+                  target="_blank"
+                  class="icon"
                   ><span class="icon_name">Facebook</span></a
                 >
                 <a href="#" class="icon"
@@ -442,7 +453,10 @@
                 </p>
               </div>
               <div class="social_icon_team">
-                <a href="#" class="icon"
+                <a
+                  href="https://www.facebook.com/gumacat"
+                  target="_blank"
+                  class="icon"
                   ><span class="icon_name">Facebook</span></a
                 >
                 <a href="#" class="icon"
@@ -458,7 +472,7 @@
             </div>
           </div>
         </section>
-        <section class="contact_container">
+        <section class="contact_container" id="contact-us">
           <div class="contact_info">
             <div class="contact_img">
               <img
@@ -536,7 +550,7 @@
                 </p>
                 <p class="footer_info">
                   <span class="info_spacing3">Address</span>Catanauan, Quezon
-                  Philippines (4311)
+                  Philippines
                 </p>
               </div>
 
@@ -544,33 +558,24 @@
                 <ul class="footer_icon">
                   <li>
                     <a
-                      href="https://www.facebook.com/martydevelopment/"
+                      href="https://www.facebook.com/resujeff27/"
                       target="_blank"
                     >
                       <i class="fab fa-facebook" tabindex="0"></i>
                     </a>
                   </li>
                   <li>
-                    <a
-                      href="https://codepen.io/Marty-Development"
-                      target="_blank"
-                    >
+                    <a href="#">
                       <i class="fab fa-codepen" tabindex="0"></i>
                     </a>
                   </li>
                   <li>
-                    <a
-                      href="https://www.instagram.com/marty.development/"
-                      target="_blank"
-                    >
+                    <a href="#" target="_blank">
                       <i class="fab fa-instagram" tabindex="0"></i>
                     </a>
                   </li>
                   <li>
-                    <a
-                      href="https://github.com/MartyDevelopment"
-                      target="_blank"
-                    >
+                    <a href="https://github.com/Rej327" target="_blank">
                       <i class="fab fa-github" tabindex="0"></i>
                     </a>
                   </li>
@@ -587,7 +592,17 @@
       crossorigin="anonymous"
     ></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="counting.js"></script>
+    <script
+      src="http://code.jquery.com/jquery-2.1.4.min.js"
+      data-semver="2.1.4"
+      data-require="jquery@2.1.4"
+    ></script>
+    <script
+      data-require="jquery-cookie@1.3.1"
+      data-semver="1.3.1"
+      src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.3.1/jquery.cookie.js"
+    ></script>
+    <script src="script.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
